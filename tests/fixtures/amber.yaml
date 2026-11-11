@@ -1,0 +1,64 @@
+version: "1"
+slug: "amber"
+title:
+  original: "Amber"
+  translated: "Amber"
+  annotation: title-note
+artist: "Lorem Ipsum"
+translator: ""
+artwork: "https://example.test/artwork.jpg"
+color: "#dfeae0"
+links:
+  - label: "Source"
+    url: "https://example.test/source"
+annotations:
+  note-1: |-
+    **Lorem ipsum** dolor sit amet, consectetur adipiscing elit.
+
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  note-2: |-
+    Lorem ipsum dolor sit amet, *consectetur adipiscing elit*.
+  title-note: |-
+    Lorem ipsum dolor sit amet.
+sections:
+  - label: "Verse 1"
+    original: |-
+      Lorem ipsum dolor sit amet.
+      Consectetur adipiscing elit.
+      Sed do eiusmod tempor incididunt.
+      Ut labore et dolore magna aliqua.
+    translated: |-
+      Sed ut perspiciatis unde omnis.
+      Iste natus error sit voluptatem.
+      Accusantium doloremque laudantium.
+      Totam rem aperiam, eaque ipsa.
+    annotations:
+      - start: 1
+        end: 2
+        ref: note-1
+  - label: "Chorus"
+    original: |-
+      Ut enim ad minim veniam.
+      Quis nostrud exercitation ullamco.
+      Laboris nisi ut aliquip ex ea.
+      Commodo consequat.
+    translated: |-
+      Nemo enim ipsam voluptatem.
+      Quia voluptas sit aspernatur.
+      Aut odit aut fugit.
+      Sed quia consequuntur magni.
+    annotations:
+      - start: 3
+        end: 3
+        ref: note-2
+  - label: "Bridge"
+    original: |-
+      Duis aute irure dolor.
+      In reprehenderit in voluptate.
+    translated: |-
+      Neque porro quisquam est.
+      Qui dolorem ipsum quia dolor.
+    annotations:
+      - start: 1
+        end: 1
+        ref: note-1

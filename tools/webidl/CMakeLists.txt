@@ -1,0 +1,5 @@
+onlyc_add_library(OnlyC.WebIdl.Generator Generator.c Generator.h)
+target_link_libraries(OnlyC.WebIdl.Generator PUBLIC yyjson)
+onlyc_add_executable(OnlyC.IdlGen Main.c)
+target_link_libraries(OnlyC.IdlGen PRIVATE OnlyC.WebIdl.Generator)
+set_target_properties(OnlyC.IdlGen PROPERTIES OUTPUT_NAME idlgen)

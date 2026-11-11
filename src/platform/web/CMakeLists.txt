@@ -1,0 +1,39 @@
+onlyc_add_executable(
+    OnlyC.Web
+    Main.c
+    Browser.c
+    Browser.h
+    Discussion.c
+    Discussion.h
+    Services.c
+    Services.h
+)
+target_include_directories(OnlyC.Web PRIVATE "${ONLYC_GENERATED_DIR}")
+target_link_libraries(OnlyC.Web PRIVATE OnlyC.App.View.Impl OnlyC.Interop OnlyC.Artwork)
+target_link_options(
+    OnlyC.Web
+    PRIVATE
+        -nostartfiles
+        -nodefaultlibs
+        -Wl,--no-entry
+        -Wl,--export-memory
+        -Wl,--import-memory
+        -Wl,--export-table
+        -Wl,--allow-undefined-file=${PROJECT_SOURCE_DIR}/src/interop/emlite.imports
+        -Wl,--export=malloc
+        -Wl,--export=free
+        -Wl,-z,stack-size=1048576
+        -Wl,--initial-memory=4194304
+        -Wl,--max-memory=67108864
+        -lc
+)
+set_target_properties(
+    OnlyC.Web
+    PROPERTIES
+        SUFFIX
+        .wasm
+        OUTPUT_NAME
+        app
+        RUNTIME_OUTPUT_DIRECTORY
+        "${ONLYC_SITE_DIR}"
+)

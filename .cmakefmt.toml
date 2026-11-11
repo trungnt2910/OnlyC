@@ -1,0 +1,122 @@
+[format]
+line_ending = "auto"
+line_width = 100
+tab_size = 4
+max_empty_lines = 1
+argument_comment_style = "preserve"
+max_hanging_wrap_positional_args = 1
+wrap_after_first_arg = false
+dangle_parens = true
+dangle_align = "prefix"
+command_case = "unchanged"
+keyword_case = "upper"
+
+[markup]
+enable_markup = false
+
+[per_command_overrides.set]
+wrap_after_first_arg = false
+
+[commands.add_library.fallback]
+pargs = "*"
+
+[commands.cpmaddpackage]
+pargs = "*"
+
+[commands.cpmaddpackage.kwargs.BITBUCKET_REPOSITORY]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.CUSTOM_CACHE_KEY]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.DOWNLOAD_COMMAND]
+nargs = "+"
+
+[commands.cpmaddpackage.kwargs.DOWNLOAD_EXTRACT_TIMESTAMP]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.DOWNLOAD_ONLY]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.EXCLUDE_FROM_ALL]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.FIND_PACKAGE_ARGUMENTS]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.FORCE]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.GITHUB_REPOSITORY]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.GITLAB_REPOSITORY]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.GIT_REPOSITORY]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.GIT_SHALLOW]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.GIT_TAG]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.NAME]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.NO_CACHE]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.OPTIONS]
+nargs = "+"
+
+[commands.cpmaddpackage.kwargs.PATCHES]
+nargs = "+"
+
+[commands.cpmaddpackage.kwargs.PATCH_COMMAND]
+nargs = "+"
+
+[commands.cpmaddpackage.kwargs.SOURCE_DIR]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.SOURCE_SUBDIR]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.SYSTEM]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.URI]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.URL]
+nargs = "+"
+
+[commands.cpmaddpackage.kwargs.URL_HASH]
+nargs = 1
+
+[commands.cpmaddpackage.kwargs.VERSION]
+nargs = 1
+
+[commands.execute_process]
+flags = [
+    "OUTPUT_QUIET",
+    "ERROR_QUIET",
+    "OUTPUT_STRIP_TRAILING_WHITESPACE",
+    "ERROR_STRIP_TRAILING_WHITESPACE",
+]
+
+[commands.execute_process.kwargs.COMMAND_ECHO]
+nargs = 1
+
+[commands.execute_process.kwargs.COMMAND_ERROR_IS_FATAL]
+nargs = 1
+
+[commands.execute_process.kwargs.ENCODING]
+nargs = 1
+
+[commands.execute_process.kwargs.ENVIRONMENT]
+nargs = "+"
+
+[commands.execute_process.kwargs.ENVIRONMENT_MODIFICATION]
+nargs = "+"

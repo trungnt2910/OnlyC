@@ -1,0 +1,129 @@
+version: "1"
+slug: "avalon"
+title:
+  original: "Avalon"
+  translated: "Avalon"
+  annotation: ""
+artist: "Alan Walker, Anne Gudrun"
+translator: "#34049"
+artwork: "https://static.wikia.nocookie.net/alan-walker/images/b/b3/Avalon_artwork.jpg"
+color: "#dfeae0"
+links:
+- label: "YouTube"
+  url: "https://www.youtube.com/watch?v=m-fsseylop0"
+- label: "Spotify"
+  url: "https://open.spotify.com/track/5tEeiYkDyA3Z5h9rbrl4fT"
+- label: "Instrumental"
+  url: "https://www.youtube.com/watch?v=ly6iKI7WVsI"
+annotations:
+  note-verse-1-2: >-
+    "Hòn đảo" ở đây nhắc đến _Avalon_, nơi yên nghỉ của vua Arthur trong truyền thuyết Anh.
+  note-verse-1-3: >-
+    Trong tiếng Việt, "xe điện" thường chỉ xe ô tô chạy bằng điện, còn _Metro_ ở đây thường được
+    dịch thành "tàu điện". Tuy nhiên, nếu để là "tàu điện" thì bản dịch sẽ không hợp giai điệu.
+
+
+    "Xe điện ngầm" có lẽ đủ để gợi đến hình ảnh của những chiếc tàu công nghệ cao chạy dưới lòng đất
+    ở những đảo quốc phát triển như Nhật Bản hay Singapore - còn ở Việt Nam thì ta chỉ có xe điện...
+    ngập.
+sections:
+- label: "Verse 1"
+  original: |-
+    Somewhere beyond your wildest dreams
+    There's an island waiting for you
+    Dark skies, Metro under ground
+    All of your dreams coming true
+  translated: |-
+    Ngoài kia, không biết ở nơi nào
+    Hòn đảo thiên đường mở lối đón chào
+    Trời khuya, những chuyến xe điện ngầm
+    Tất cả ước mơ hóa thành thật
+  annotations:
+  - start: "2"
+    end: "2"
+    ref: "note-verse-1-2"
+  - start: "3"
+    end: "3"
+    ref: "note-verse-1-3"
+- label: "Hook"
+  original: |-
+    There's a place, We can go
+    Through the fire and the smoke
+    Come with me
+    On our way
+    We're at the end of the world
+  translated: |-
+    Một đích đến, để ta đi
+    Vượt bao khói lửa và hiểm nguy
+    Theo bước mình
+    Trên con đường
+    Cùng nhau tới nơi cuối trần gian
+  annotations: []
+- label: "Hook"
+  original: |-
+    Where there's peace, and we know
+    Through the valley, there is gold
+    brighter days
+    On our way
+    We're at the end of the world
+    Avalon
+    Avalon
+  translated: |-
+    Khi bình yên, và ta cũng
+    Thấy ánh kim bên kia thung lũng
+    Những tháng ngày
+    Tươi sáng hơn
+    Đang đợi ta nơi cuối trần gian
+    Avalon
+    Avalon
+  annotations:
+  - start: "6"
+    end: "7"
+    ref: "note-verse-1-2"
+- label: "Verse 2"
+  original: |-
+    Gather ashes on the ground
+    Riches to be found, there waiting
+    Gold dust lighting your escape
+    Nothing will ever be the same
+  translated: |-
+    Tìm kiếm trong những đống tro tàn
+    Dưới đó vẫn còn muôn vàn báu vật
+    Lần theo dấu vết hạt bụi vàng
+    Tìm một lối đi mới hoàn toàn
+  annotations: []
+- label: "Hook"
+  original: |-
+    There's a place, We can go
+    Through the fire and the smoke
+    Come with me
+    On our way
+    We're at the end of the world
+  translated: |-
+    Một đích đến, để ta đi
+    Vượt bao khói lửa và hiểm nguy
+    Theo bước mình
+    Trên con đường
+    Cùng nhau tới nơi cuối trần gian
+  annotations: []
+- label: "Hook"
+  original: |-
+    Where there's peace, and we know
+    Through the valley, there is gold
+    brighter days
+    On our way
+    We're at the end of the world
+    Avalon
+    Avalon
+  translated: |-
+    Khi bình yên, và ta cũng
+    Thấy ánh kim bên kia thung lũng
+    Những tháng ngày
+    Tươi sáng hơn
+    Đang đợi ta nơi cuối trần gian
+    Avalon
+    Avalon
+  annotations:
+  - start: "6"
+    end: "7"
+    ref: "note-verse-1-2"

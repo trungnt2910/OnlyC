@@ -1,0 +1,39 @@
+version: "1"
+slug: "frost"
+title:
+  original: "Frost"
+  translated: "Frost"
+artist: "Lorem Ipsum"
+translator: ""
+links:
+  - label: "Source"
+    url: "https://example.test/source"
+annotations:
+  note-1: |-
+    Lorem ipsum dolor sit amet.
+
+    > Consectetur adipiscing elit.
+sections:
+  - label: "Verse 1"
+    original: |-
+      Lorem ipsum dolor sit amet.
+      Consectetur adipiscing elit.
+      Sed do eiusmod tempor incididunt.
+      Ut labore et dolore magna aliqua.
+    translated: |-
+      Ut enim ad minima veniam.
+      Quis nostrum exercitationem.
+      Ullam corporis suscipit laboriosam.
+      Nisi ut aliquid ex ea commodi.
+    annotations:
+      - start: 2
+        end: 3
+        ref: note-1
+  - label: "Chorus"
+    original: |-
+      Ut enim ad minim veniam.
+      Quis nostrud exercitation ullamco.
+    translated: |-
+      Quis autem vel eum iure.
+      Reprehenderit qui in ea voluptate.
+    annotations: []

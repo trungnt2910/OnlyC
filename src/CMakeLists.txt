@@ -1,0 +1,6 @@
+add_subdirectory(core)
+add_subdirectory(app)
+if(ONLYC_WASM)
+    add_subdirectory(interop)
+    add_subdirectory(platform/web)
+endif()

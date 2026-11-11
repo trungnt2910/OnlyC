@@ -1,0 +1,5 @@
+add_subdirectory(strings)
+add_subdirectory(model)
+add_subdirectory(controller)
+add_subdirectory(ui)
+add_subdirectory(view)
